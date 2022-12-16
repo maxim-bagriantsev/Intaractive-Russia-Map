@@ -4,7 +4,7 @@ TODO: description
 
 ## Tech Stack
 
-**Client:** React, Redux, SCSS, Next.js
+**Client:** React, SCSS, Next.js
 
 
 ## Dev stand
