@@ -1,0 +1,100 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "preserve",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noEmit": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@apiModels/*": [
+        "apiModels/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@lexicons": [
+        "lib/constants/lexicons"
+      ],
+      "@routes": [
+        "lib/constants/routes"
+      ],
+      "@helpers/*": [
+        "lib/helpers/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@admin": [
+        "components/admin/index"
+      ],
+      "@AdminPanel/*": [
+        "components/AdminPanel/*"
+      ],
+      "@contentComponents": [
+        "components/admin/contentComponents/index"
+      ],
+      "@UI/*": [
+        "components/UI/*"
+      ],
+      "@Layout": [
+        "components/Layout/DefaultLayout.connect"
+      ],
+      "@pageHooks/*": [
+        "pageHooks/*"
+      ],
+      "@serverHandlers": [
+        "serverHandlers"
+      ],
+      "@serverSideProps/*": [
+        "serverSideProps/*"
+      ],
+      "@store": [
+        "store/store"
+      ],
+      "@store/*": [
+        "store/*"
+      ],
+      "@asserts/*": [
+        "asserts/*"
+      ],
+      "@userAgent": [
+        "lib/helpers/userAgentParser"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/UI/DonutChart/DonutChart.tsx",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}

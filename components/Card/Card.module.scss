@@ -1,0 +1,12 @@
+.card {
+  padding: 20px 24px;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background: white;
+  overflow: hidden;
+
+  &_main {
+    background: white;
+  }
+}

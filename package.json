@@ -1,0 +1,50 @@
+{
+  "name": "RuMap",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/maxim-bagriantsev",
+  "author": "Bagryantcev Maxim <bagryancevm@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "dev_3001": "next dev -p 3001",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "connected-next-router": "^4.0.1",
+    "next": "^12.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/plugin-proposal-pipeline-operator": "^7.15.0",
+    "@types/node": "^16.10.2",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@types/sass": "^1.16.1",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.26.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "prop-types": "^15.8.1",
+    "sass": "^1.42.1",
+    "typescript": "4.9.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "npm run lint:fix"
+    ]
+  }
+}

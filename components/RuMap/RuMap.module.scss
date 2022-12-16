@@ -1,0 +1,24 @@
+
+.map {
+  cursor: pointer;
+
+  .popup {
+    position: fixed;
+    display: none;
+
+    &_show {
+      display: block;
+    }
+
+    &Content {
+      background: white;
+    }
+  }
+
+  path {
+    transition: all ease-in-out .2;
+    &:hover {
+      fill: #71719b;
+    }
+  }
+}
